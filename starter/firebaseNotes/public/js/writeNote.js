@@ -1,4 +1,4 @@
-window.onload = {event} => {
+window.onload = (event) => {
     console.log("window loaded");
     firebase.auth().onAuthStateChanged((user) => {
         if(user){
